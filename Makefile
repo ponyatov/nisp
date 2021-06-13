@@ -58,14 +58,11 @@ tmp/format: $(N)
 # \ doc
 .PHONY: doc
 doc: \
-	doc/NimInAction.pdf \
 	doc/week12-2013.pdf doc/LispInSmallPieces_ru.pdf
 doc/week12-2013.pdf:
 	$(CURL) $@ https://www.epfl.ch/labs/lamp/wp-content/uploads/2019/01/week12-2013.pdf
 doc/LispInSmallPieces_ru.pdf:
 	$(CURL) $@ https://github.com/ilammy/lisp/releases/download/v.1.2/lisp.pdf
-doc/NimInAction.pdf:
-	$(CURL) $@ https://nim.nosdn.127.net/MTY3NjMzODI=/bmltd18wXzE1NzYxNTc0NDQwMTdfMWU4MDhiODUtZDM0Ni00OWFlLWJjYzUtMDg2ODIxMmMzMTIw
 
 .PHONY: doxy
 doxy: doxy.gen
