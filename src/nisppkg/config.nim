@@ -1,6 +1,6 @@
 
 const
-  SECRET*  = "x2CkGH7JlI9UrePgnvV8BHjxrdgrZXFo4v"
+  SECRET*  = "Y2SFuiIHv3FpnLFYAevO5y3yOxPY3WHFBa"
   HOST*    = "127.0.0.1"
   PORT*    = 20258
 
